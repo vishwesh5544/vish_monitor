@@ -25,7 +25,7 @@ class VishMonitor:
         self.interval = interval
 
     def __get_alert_string(self, current_cpu_percent):
-        return f"Alert! CPU usage is {current_cpu_percent}%"
+        return f"Alert! CPU usage exceeds threshold: {current_cpu_percent}%"
 
     def __str__(self):
         return (
