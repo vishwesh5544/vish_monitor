@@ -1,7 +1,7 @@
 # vish_monitor
 A Simple CPU Health monitoring program
 
-### Problem statement
+## Problem statement
 Q.2. As a DevOps engineer, it is crucial to monitor the health and performance of servers. Write a Python program to monitor the health of the CPU. Few pointers to be noted:
 
 ●       The program should continuously monitor the CPU usage of the local machine.
@@ -27,3 +27,6 @@ Alert! CPU usage exceeds threshold: 85%
 Alert! CPU usage exceeds threshold: 90%
 
 ... (continues until interrupted) 
+
+## Solution
+Monitors the CPU usage, if CPU usage percentage increases more than 80 the program starts logging to console.
